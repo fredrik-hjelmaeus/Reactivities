@@ -2,8 +2,8 @@ import { observer } from "mobx-react-lite";
 import { ChangeEvent, useEffect, useState } from "react";
 import { Link, useHistory, useParams } from "react-router-dom";
 import { Button, Form, Segment } from "semantic-ui-react";
-import LoadingComponent from "../../../../app/layout/LoadingComponent";
-import { useStore } from "../../../../app/stores/store";
+import LoadingComponent from "../../../app/layout/LoadingComponent";
+import { useStore } from "../../../app/stores/store";
 import { v4 as uuid } from "uuid";
 
 export default observer(function ActivityForm() {
